@@ -1,6 +1,7 @@
 /**************************************************************************
  WEMOS D1 mini as MQTT Client
- Written by Stefan Scharrenbach <github@stefan-scharrenbach.de>, public domain
+ Author: Stefan Scharrenbach <github@stefan-scharrenbach.de>
+ License: MIT
  **************************************************************************/
 
 #include <DHT.h>

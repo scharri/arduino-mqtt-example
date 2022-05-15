@@ -81,6 +81,11 @@ data to your InfluxDB database.
 
 For programming the D1 Mini V3, the easiest way is to use the
 [Arduino IDE](https://www.arduino.cc/en/Main/Software).
+You have to add the [ESP Boards](http://arduino.esp8266.com/stable/package_esp8266com_index.json)
+and the following libraries:
+- [Adafruit SSD1306](https://github.com/adafruit/Adafruit_SSD1306)
+- [Adafruit DHT](https://github.com/adafruit/DHT-sensor-library)
+- [PubSubClient](https://pubsubclient.knolleary.net/)
 
 D1 Mini V3 should send sensor data to the mosquitto broker to the following MQTT topic:
 `iot/{device-identifier}/{sensorname}`.
